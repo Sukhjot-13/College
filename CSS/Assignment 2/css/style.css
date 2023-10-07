@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d7d5d5;
+    font-family: 'Dancing Script', cursive; /*font styling*/
+
+}
+p{
+    text-align: center; /*aligning the text in the center*/
+}
+div{
+    width: 80%;
+    background-color: rgba(117, 73, 73, 0.1);
+    box-shadow: rgb(121, 110, 121) 5px 5px 5px 5px; /*text shadow*/
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.lyricsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center; /*aligning the text in the center of the page*/
+    flex-direction: column;
+    width: 100%;
+    text-shadow: rgb(217, 152, 152) 1px 1px;
+
+}
+main{
+    width: 100%;
+}
+.intro{
+    font-weight: 400;
+}
+span{
+    font-size: 2rem;
+    font-weight: bold; /*font weight is added to make the colour bold*/
+}
+span.sad{
+    color: rgb(118, 118, 177);
+    font-family: 'Pacifico', cursive; /*different font styling is added*/
+}
+span.happy{
+    color: rgb(216, 198, 32);
+    font-family: 'Edu QLD Beginner', cursive;
+}
+span.fear{
+    color: rgb(37, 37, 139); /*color for the text*/
+    font-family: 'Cinzel', serif;
+}
+span.command{
+    color: rgb(183, 41, 69); /*color for the text*/
+}
+span.name{
+    color: rgb(216, 83, 39);
+    font-family: 'Dancing Script', cursive; /*font style*/
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+}
+span.confused{
+    color: rgb(120, 108, 104);
+    font-family: 'Pixelify Sans', sans-serif;
+
+}
+span.fantasy{
+    color: rgb(86, 49, 131);
+    font-family: 'Bonbon', cursive;
+
+}
+span.money{
+    color: rgb(47, 161, 60); /*colour is added to the text*/
+}
+span.anger{
+    color: rgb(170, 5, 5);
+    font-family: 'Cinzel', serif;
+    font-weight: bold; /*font weight is added to make the colour bold*/
+    font-size: 500;
+}
+h1{
+    font-size: 3.3rem; /*size of the text*/
+    text-shadow: rgb(217, 152, 152) 5px 3px;
+
+}
+h3{
+    font-size: 2.3rem;
+    font-weight: bold; /*font weight is added to make the colour bold*/
+    text-shadow: rgb(217, 152, 152) 3px 2px;
+}
